@@ -1,0 +1,44 @@
+*{
+	background-color: rgba(24, 24, 24, 1.0);
+	color: white;
+}
+
+.home-main{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	color: white;
+	padding-top: 78px;
+}
+
+.block-img{
+	width: 298px;
+	height: 168px;
+}
+
+.block-main{
+	width: 298px;
+	height: 250px;
+	margin: 4px;
+	cursor: pointer;
+}
+
+
+.block-title{
+	overflow: hidden;
+	font-size: 16px;
+	font-weight: 500;
+	min-height: 0px;
+	max-height: 40px;
+}
+
+.block-title:hover{
+	color: yellow;
+	transition: 0.4s;
+}
+
+.block-channel{
+	font-size: 14px;
+	padding-top: 4px;
+	font-weight: 500;
+}

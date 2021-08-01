@@ -1,0 +1,89 @@
+.navbar-main{
+	height: 56px;
+	background-color: rgba(32, 32, 32, 1);
+	color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	position: fixed;
+}
+
+.profile-main{
+	padding-right: 28px;
+	background-color: transparent;
+}
+
+.logo-main{
+	width: 36px;
+	height: 36px;
+	padding-right: 4px;
+	background-color: transparent;
+}
+
+.home-button{
+	display: flex;
+	align-items: center;
+	height: 48px;
+	font-size: 18px;
+	padding-left: 8px;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.home-button-text{
+	background-color: transparent;
+}
+
+.home-button-text:hover{
+	color: yellow;
+	transition: 0.6s;
+}
+
+.searchbar{
+	display: flex;
+	width: auto;
+	height: 26px;
+	border: 1px solid yellow;
+}
+
+.searchbar-feild{
+	width: auto;
+	border-right: 1px solid yellow;
+}
+
+.searchbar-input{
+	width: 446px;
+	background: transparent;
+	border: none;
+	color: white;
+	height: 24px;
+	font-size: 17px;
+	padding: 1px 1px 8px 8px;
+}
+
+.searchbar-input:focus{
+	outline: none;
+}
+
+.searchbar-button{
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	padding: 1px 1px 8px 8px;
+	padding-right: 8px;
+	cursor: pointer;
+}
+
+.searchbar-button:hover{
+	background-color: #464646 ;
+	transition: 0.3s;
+}
