@@ -18,7 +18,7 @@ function App() {
       setLocation(`${position.coords.latitude}%2C%20${position.coords.longitude}`);
     })
   }
-  console.log(location)
+  console.log(result)
 
   return (
     <div className="main" >
@@ -28,7 +28,9 @@ function App() {
         <Route exact path="/" component={Home}/>
         <Route path="/search" component={Search}/>
         <Route exact path="/error" component={Error}/>
-        <Route path="/video" component={Player} />
+        <Route path="/video">
+          <Player/>
+        </Route>
       </Switch>
     </ AppContext.Provider >
     </div>
