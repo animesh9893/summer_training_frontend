@@ -11,7 +11,8 @@ function Search() {
 
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
-  const q=urlParams.get('q')
+  const q=urlParams.get('q').replace(" ","|")
+
   const max=50;
   setResult(GetData({"q":q,"maxResult":max,"location":location},query))  
   console.log(result)

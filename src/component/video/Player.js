@@ -20,7 +20,7 @@ function Player(){
 		<div className="player-main">
 			<div className="player-video">
 				<iframe className={`video-theater`}
-				src={`https://www.youtube.com/embed/${q}`} 
+				src={`https://www.youtube.com/embed/${q}?autoplay=1&cc_load_policy=1`} 
 				frameborder="0" allow="accelerometer; 
 				autoplay; clipboard-write; encrypted-media; 
 				gyroscope; picture-in-picture" allowfullscreen>
